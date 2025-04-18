@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Image from 'next/image';
 // import Slider from "./HeroSlider";
 
 const Hero = () => {
@@ -18,7 +19,7 @@ const Hero = () => {
 
       <div className="w-full flex justify-center items-center">
         {/* <Slider /> */}
-        <img src="/images/hero.png" alt="hero" className="w-full"/>
+        <Image src="/images/hero.png" alt="hero" className="w-full"/>
       </div>
     </div>
   );
