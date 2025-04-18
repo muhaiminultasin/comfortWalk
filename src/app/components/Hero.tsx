@@ -21,7 +21,7 @@ const Hero = () => {
         <Button name="Shop Now" btnClass={""} />
       </div>
 
-      <div className="relative w-full h-[300px] md:h-full">
+      <div className="relative w-full h-auto md:h-full">
   <Image
     src="/images/hero.png"
     alt="hero"
