@@ -21,12 +21,11 @@ const Hero = () => {
         <Button name="Shop Now" btnClass={""} />
       </div>
 
-      <div className="relative w-full h-auto md:h-full">
+      <div className="relative w-full h-[380px] md:h-full">
   <Image
     src="/images/hero.png"
     alt="hero"
     fill
-    className="object-cover"
   />
 </div>
     </div>
