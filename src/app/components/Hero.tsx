@@ -21,14 +21,14 @@ const Hero = () => {
         <Button name="Shop Now" btnClass={""} />
       </div>
 
-      <div className="relative w-full h-full">
-        <Image
-          src="/images/hero.png"
-          alt="hero"
-          fill
-          className="object-cover"
-        />
-      </div>
+      <div className="relative w-full h-[300px] md:h-full">
+  <Image
+    src="/images/hero.png"
+    alt="hero"
+    fill
+    className="object-cover"
+  />
+</div>
     </div>
   );
 };
