@@ -97,21 +97,27 @@ const Products = () => {
       </div>
 
       <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-      {productsDetails.map(({ img, name, price }, index) => (
-        <div key={index} className="h-[300px]">
-          <div className="relative w-full h-[60%] ">
-          <Image src={img} alt={name} fill />
+        {productsDetails.map(({ img, name, price }, index) => (
+          <div
+            key={index}
+            className="min-h-[300px] bg-[#F0F8FF] rounded-lg shadow-xl"
+          >
+            <div className="relative w-full h-[60%] ">
+              <Image src={img} alt={name} fill className="rounded-top-right" />
+            </div>
+
+            <div className="px-3">
+              <div className="mt-2 ">
+                <h1 className="font-semibold">{name}</h1>
+                <h2 className="text-gray-600">৳{price}</h2>
+              </div>
+              <div>
+                <Button name="View details" btnClass="py-1 px-3" />
+              </div>
+            </div>
           </div>
-          <div className="mt-2">
-            <h1 className="font-semibold">{name}</h1>
-            <h2 className="text-gray-600">৳{price}</h2>
-          </div>
-          <div>
-            <Button name="View details" btnClass="py-1 px-3" />
-          </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
     </div>
   );
 };
