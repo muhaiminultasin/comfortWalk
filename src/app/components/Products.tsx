@@ -137,19 +137,14 @@ const Products = () => {
       {productsDetails.map(({ img, name, price }, index) => (
         <div key={index} className="h-[300px]">
           <div className="relative w-full h-[60%] ">
-            <Image
-              src={img}
-              alt={name}
-              fill
-              className="object-cover rounded-xl"
-            />
+          <Image src={img} alt={name} fill />
           </div>
           <div className="mt-2">
             <h1 className="font-semibold">{name}</h1>
             <h2 className="text-gray-600">৳{price}</h2>
           </div>
           <div>
-            <Button name="Buy Now" btnClass="py-1 px-3"/> 
+            <Button name="Buy Now" btnClass="py-1 px-3" />
           </div>
         </div>
       ))}
