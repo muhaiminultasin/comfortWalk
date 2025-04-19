@@ -100,9 +100,9 @@ const Products = () => {
         {productsDetails.map(({ img, name, price }, index) => (
           <div
             key={index}
-            className="min-h-[300px] bg-[#F0F8FF] rounded-lg shadow-xl"
+            className="min-h-[400px] md:min-h-[300px] bg-[#F0F8FF] rounded-lg shadow-xl"
           >
-            <div className="relative w-full h-[60%] ">
+            <div className="relative w-full h-[70%] md:h-[60%] ">
               <Image src={img} alt={name} fill className="rounded-top-right" />
             </div>
 
