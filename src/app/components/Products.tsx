@@ -103,7 +103,7 @@ const Products = () => {
       sizes: [38, 39, 40, 41],
     },
     {
-      img: "public/images/slider2.jpg",
+      img: "/images/slider2.jpg",
       name: "Womans slipper",
       price: 490,
       category: "Woman",
