@@ -134,7 +134,7 @@ const Products = () => {
 
   return (
     <div className="px-10 md:px-20 min-h-screen grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-      {productsDetails.map(({ img, name, price, category, sizes }, index) => (
+      {productsDetails.map(({ img, name, price }, index) => (
         <div key={index} className="h-[300px]">
           <div className="relative w-full h-[60%] ">
             <Image
