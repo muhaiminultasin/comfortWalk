@@ -10,7 +10,7 @@ const Button = ({name,btnClass}: ButtonProps) => {
 
   return (
     <div>
-      <button className={cn("bg-[#E30B5C] text-white px-4 py-2 rounded mt-5",btnClass)}>{name}</button>
+      <button className={cn("bg-[#E30B5C] text-white px-4 py-2 rounded mt-5 cursor-pointer",btnClass)}>{name}</button>
     </div>
   )
 }

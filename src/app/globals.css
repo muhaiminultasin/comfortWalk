@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+
+
+/* custom classes */
+
+.text-primary{
+    color: #E30B5C;
+}

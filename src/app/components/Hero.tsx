@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="w-full md:h-screen  px-10 md:px-20  grid grid-cols-1 md:grid-cols-2 items-center gap-10 overflow-hidden">
       <div className="pt-32">
-        <h1 className="text-5xl md:text-6xl font-bold text-[#E30B5C]">
+        <h1 className="text-5xl md:text-6xl font-bold text-primary">
           Comfort in every step __
         </h1>
         <p className="text-2xl mt-5 font-medium text-[#474646]">

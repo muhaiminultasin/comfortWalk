@@ -91,7 +91,12 @@ const Products = () => {
   ];
 
   return (
-    <div className="px-10 md:px-20 min-h-screen grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+    <div className="px-10 md:px-20 min-h-screen">
+      <div className="py-10">
+        <h1 className="text-3xl font-semibold text-primary">Our Products</h1>
+      </div>
+
+      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
       {productsDetails.map(({ img, name, price }, index) => (
         <div key={index} className="h-[300px]">
           <div className="relative w-full h-[60%] ">
@@ -102,10 +107,11 @@ const Products = () => {
             <h2 className="text-gray-600">৳{price}</h2>
           </div>
           <div>
-            <Button name="Buy Now" btnClass="py-1 px-3" />
+            <Button name="View details" btnClass="py-1 px-3" />
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };
