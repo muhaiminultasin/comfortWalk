@@ -1,12 +1,16 @@
-import React from 'react'
-import Hero from './components/Hero';
+import React from "react";
+import Hero from "./components/Hero";
+import Products from "./components/Products";
 
 const Home = () => {
   return (
     <>
-      <Hero/>
+      <div className="flex flex-col space-y-32">
+        <Hero />
+        <Products />
+      </div>
     </>
-  )
-}
+  );
+};
 
 export default Home;

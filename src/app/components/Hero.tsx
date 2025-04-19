@@ -22,12 +22,8 @@ const Hero = () => {
       </div>
 
       <div className="relative w-full h-[380px] md:h-full">
-  <Image
-    src="/images/hero.png"
-    alt="hero"
-    fill
-  />
-</div>
+        <Image src="/images/hero.png" alt="hero" fill />
+      </div>
     </div>
   );
 };
