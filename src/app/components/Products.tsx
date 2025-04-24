@@ -1,72 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import Button from "./Button";
+import SecTitle from "./SecTitle";
 
 const Products = () => {
   const productsDetails = [
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
-    {
-      img: "/images/Slider2.jpg",
-      name: "Womans slipper",
-      price: 490,
-      category: "Woman",
-      sizes: [38, 39, 40, 41],
-    },
     {
       img: "/images/Slider2.jpg",
       name: "Womans slipper",
@@ -92,27 +30,29 @@ const Products = () => {
 
   return (
     <div className="px-10 md:px-20 min-h-screen">
-      <div className="py-10">
-        <h1 className="text-3xl font-semibold text-primary">Our Products</h1>
+      <div className="py-10 text-center">
+        <SecTitle title="Our Products" subtitle="Our most popular picks, loved by thousands. From sneakers to sandals – we've got you covered."/>
       </div>
 
-      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-        {productsDetails.map(({ img, name, price }, index) => (
+      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10">
+        {productsDetails.map(({ img, name, price,category }, index) => (
           <div
             key={index}
-            className="min-h-[400px] md:min-h-[300px] bg-[#F0F8FF] rounded-lg shadow-xl"
+            className="flex flex-col justify-between min-h-[400px] md:min-h-[300px] lg:min-h-[450px] bg-[#FFF] rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300"
           >
-            <div className="relative w-full h-[70%] md:h-[60%] ">
-              <Image src={img} alt={name} fill className="rounded-top-right" />
+            <div className="relative w-full h-[70%] md:h-[60%] overflow-hidden ">
+              <Image src={img} alt={name} fill className="rounded-t-lg hover:scale-105 transition-all duration-300" />
             </div>
 
-            <div className="px-3">
+            <div className="px-3 mb-5">
               <div className="mt-2 ">
-                <h1 className="font-semibold">{name}</h1>
-                <h2 className="text-gray-600">৳{price}</h2>
+                <h1 className=" text-xl font-semibold">{name}</h1>
+                <p className="text-sm">{category}</p>
+                
               </div>
-              <div>
-                <Button name="View details" btnClass="py-1 px-3" />
+              <div className="flex justify-between items-center">
+              <h2 className="text-[#1E3A8A] font-semibold">৳{price}</h2>
+                <Button name="order" btnClass="py-1 px-3" />
               </div>
             </div>
           </div>
