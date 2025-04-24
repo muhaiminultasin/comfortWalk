@@ -51,7 +51,7 @@ const Products = () => {
                 
               </div>
               <div className="flex justify-between items-center">
-              <h2 className="text-[#1E3A8A] font-semibold">৳{price}</h2>
+              <h2 className="text-[#1E3A8A] font-semibold">৳ {price}</h2>
                 <Button name="order" btnClass="py-1 px-3" />
               </div>
             </div>
