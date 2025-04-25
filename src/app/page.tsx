@@ -6,7 +6,7 @@ import OfferSec from "./components/OfferSec";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col space-y-20 bg-[#F1F5F9]">
+      <div className="flex flex-col md:space-y-20 bg-[#F1F5F9]">
         <Hero />
         <Products />
         <OfferSec/>
