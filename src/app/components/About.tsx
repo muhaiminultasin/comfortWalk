@@ -7,13 +7,13 @@ const About = () => {
       <div>
         <h1 className="text-4xl font-bold text-[#1E3A8A] pb-8">Get to Know Us</h1>
         <p className="text-lg  mx-auto text-gray-600">
-          We're a local brand passionate about delivering comfort and style to
+          We&apos;re a local brand passionate about delivering comfort and style to
           your doorstep. From everyday essentials to statement pieces, we offer
-          shoes that blend fashion with function — at prices you'll love.
+          shoes that blend fashion with function — at prices you&apos;ll love.
         </p>
 
         <p className="text-lg  mx-auto text-gray-600 mt-5">
-          Whether you're running errands or dressing up for the weekend, we're
+          Whether you&apos;re running errands or dressing up for the weekend, we&apos;re
           here to make sure you do it in style.
         </p>
       </div>
