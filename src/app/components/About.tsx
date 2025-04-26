@@ -17,7 +17,7 @@ const About = () => {
           here to make sure you do it in style.
         </p>
       </div>
-      <div className="relative min-h-40 md:min-h-80">
+      <div className="relative min-h-60 md:min-h-80">
         <Image
           src={"/images/aboutShoe.avif"}
           alt={"about"}
