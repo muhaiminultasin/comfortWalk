@@ -48,4 +48,4 @@ const OfferSec = () => {
   )
 }
 
-export default OfferSec
+export default OfferSec;

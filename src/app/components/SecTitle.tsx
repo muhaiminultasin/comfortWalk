@@ -15,4 +15,6 @@ const SecTitle = ({title,subtitle} : titleProps) => {
   )
 }
 
-export default SecTitle
+export default SecTitle;
+
+

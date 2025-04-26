@@ -2,6 +2,9 @@ import React from "react";
 import Hero from "./components/Hero";
 import Products from "./components/Products";
 import OfferSec from "./components/OfferSec";
+import HotDeal from "./components/HotDeal";
+import DeliverySec from "./components/DeliverySec";
+import About from "./components/About";
 
 const Home = () => {
   return (
@@ -9,7 +12,10 @@ const Home = () => {
       <div className="flex flex-col md:space-y-20 bg-[#F1F5F9]">
         <Hero />
         <Products />
-        <OfferSec/>
+        <OfferSec />
+        <HotDeal />
+        <DeliverySec/>
+        <About/>
       </div>
     </>
   );
