@@ -19,9 +19,9 @@ const About = () => {
       </div>
       <div className="relative min-h-60 md:min-h-80">
         <Image
-          src={"/images/aboutShoe.avif"}
-          alt={"about"}
-          fill
+          src="/images/aboutShoe.avif"
+          alt="About our shoe collection"
+          layout="fill"
           className="object-cover"
         />
       </div>
