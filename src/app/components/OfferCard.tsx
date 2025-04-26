@@ -18,7 +18,7 @@ const OfferCard = ( { img, headLine, desc,layout }: cardProps
        </div>
       </div>
 
-      <div className="w-[90%] h-[100px]">
+      <div className="w-[90%] min-h-[100px]">
         <h1 className="text-xl font-semibold">{headLine}</h1>
         <p className="text-gray-500 text-lg">{desc}</p>
       </div>

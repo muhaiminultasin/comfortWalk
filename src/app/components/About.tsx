@@ -6,13 +6,13 @@ const About = () => {
     <div className="bg-white py-16 px-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div>
         <h1 className="text-4xl font-bold text-[#1E3A8A] pb-8">Get to Know Us</h1>
-        <p className="text-xl  mx-auto text-gray-600">
+        <p className="text-lg  mx-auto text-gray-600">
           We're a local brand passionate about delivering comfort and style to
           your doorstep. From everyday essentials to statement pieces, we offer
           shoes that blend fashion with function — at prices you'll love.
         </p>
 
-        <p className="text-xl  mx-auto text-gray-600 mt-5">
+        <p className="text-lg  mx-auto text-gray-600 mt-5">
           Whether you're running errands or dressing up for the weekend, we're
           here to make sure you do it in style.
         </p>

@@ -5,6 +5,7 @@ import OfferSec from "./components/OfferSec";
 import HotDeal from "./components/HotDeal";
 import DeliverySec from "./components/DeliverySec";
 import About from "./components/About";
+import MissionVission from "./components/MissionVission";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <HotDeal />
         <DeliverySec/>
         <About/>
+        <MissionVission/>
       </div>
     </>
   );
