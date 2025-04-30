@@ -11,22 +11,23 @@ const Review = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         <div className="bg-white p-5 rounded-lg shadow-sm hover:shadow-lg">
           <p className="text-lg">
-            "Super comfy and stylish! I wear mine every day."
+          &quot;Super comfy and stylish! I wear mine every day.&quot;
           </p>
           <p className="font-bold mt-5">– Rafiq H.</p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-sm hover:shadow-lg">
           <p className="text-lg">
-            "Super comfy and stylish! I wear mine every day."
+          &quot;Super comfy and stylish! I wear mine every day.&quot;
           </p>
           <p className="font-bold mt-5">– Rafiq H.</p>
         </div>
         <div className="bg-white p-5 rounded-lg shadow-sm hover:shadow-lg">
           <p className="text-lg">
-            "Super comfy and stylish! I wear mine every day."
+          &quot;Super comfy and stylish! I wear mine every day.&quot;
           </p>
           <p className="font-bold mt-5">– Rafiq H.</p>
         </div>
+        
       </div>
     </section>
   );
