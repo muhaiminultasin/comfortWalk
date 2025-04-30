@@ -25,7 +25,7 @@ const DeliverySec = () => {
   ];
 
   return (
-    <div className="mt-15 md:mt-0 px-5 md:px-10 text-center ">
+    <div className="mt-14 md:mt-0 px-5 md:px-10 text-center ">
       <SecTitle
         title={" Fast, Reliable Delivery"}
         subtitle={

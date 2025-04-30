@@ -6,6 +6,8 @@ import HotDeal from "./components/HotDeal";
 import DeliverySec from "./components/DeliverySec";
 import About from "./components/About";
 import MissionVission from "./components/MissionVission";
+import Review from "./components/Review";
+import FrequentlyAsked from "./components/FrequentlyAsked";
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
         <DeliverySec/>
         <About/>
         <MissionVission/>
+        <Review/>
+        <FrequentlyAsked/>
       </div>
     </>
   );

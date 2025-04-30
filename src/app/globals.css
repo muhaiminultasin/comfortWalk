@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 
 /* custom classes */
 
-.text-primary{
-    color: #E30B5C;
-}
 
 
 body {
