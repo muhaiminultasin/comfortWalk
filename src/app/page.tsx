@@ -8,6 +8,7 @@ import About from "./components/About";
 import MissionVission from "./components/MissionVission";
 import Review from "./components/Review";
 import FrequentlyAsked from "./components/FrequentlyAsked";
+import Connect from "./components/Connect";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <MissionVission/>
         <Review/>
         <FrequentlyAsked/>
+        <Connect/>
       </div>
     </>
   );
