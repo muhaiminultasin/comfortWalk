@@ -16,7 +16,7 @@ const MissionVission = () => {
     ]
 
   return (
-    <div className='px-10 py-10 grid grid-cols-1 md:grid-cols-2 gap-5'>
+    <div className='px-5 md:px-10 py-10 grid grid-cols-1 md:grid-cols-2 gap-5'>
       {
         vissionDetails.map(({title, subtitle},i)=> {
             return <OfferCard key={i} img={undefined} headLine={title} desc={subtitle} layout={'h-auto'}/>

@@ -36,7 +36,7 @@ const Products = () => {
   ];
 
   return (
-    <div className="px-10  min-h-screen">
+    <div className="px-5 md:px-10  min-h-screen">
       <div className="py-10 text-center">
         <SecTitle title="Our Products" subtitle="Our most popular picks, loved by thousands. From sneakers to sandals – we've got you covered."/>
       </div>

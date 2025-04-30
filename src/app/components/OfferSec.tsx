@@ -30,7 +30,7 @@ const OfferSec = () => {
 
 
   return (
-    <section className='px-10 py-20'>
+    <section className='px-5 md:px-10 py-20'>
       <div className='w-fit mx-auto'>
         <SecTitle title=' Limited-Time Offers' subtitle='' />
       </div>

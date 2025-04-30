@@ -3,7 +3,7 @@ import SecTitle from "./SecTitle";
 
 const Review = () => {
   return (
-    <section className="px-10 ">
+    <section className="px-5 md:px-10 ">
       <div className="text-center">
         <SecTitle title={"What Our Customers Say"} subtitle={""} />
       </div>
